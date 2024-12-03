@@ -9,7 +9,7 @@ export default async function Home() {
       <Button size="lg">Hi</Button>
       {games.map((game) => (
         <Card key={game.id}>
-          <CardTitle>{game.name}</CardTitle>
+          <CardTitle>{game.status}</CardTitle>
         </Card>
       ))}
     </div>
